@@ -30,12 +30,18 @@ export const gameAssets = [
 	}
 	*/
 	{
-		type: 'tilemap',
 		key: 'data/test_map',
+		type: 'tilemap',
 		format: 'CSV'
 	},
 	{
-		type: 'image',
-		key: 'tileset'
-	}
+		key: 'tileset',
+		type: 'image'
+	},
+	{
+		key: 'sword',
+		type: 'spritesheet',
+		frameWidth: 64,
+		frameHeight: 32
+	},
 ];
